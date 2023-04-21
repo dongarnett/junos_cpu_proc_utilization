@@ -190,7 +190,7 @@ def parse_re_cpu_output(dut_host, interval_max):
                         proc_usage_list[i].append(init_pct_use)
             i += 1
         interval_current += 1
-        time.sleep(5)
+        time.sleep(1)
     dict_proc_data = {
                     "proc_list" : proc_list,
                     "proc_usage_list" : proc_usage_list
